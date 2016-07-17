@@ -1,0 +1,54 @@
+$width : 100%;
+$hundred : 100px;
+$font : 62.5%;
+$page-1-color: #803846;
+$page-2-color: #9261bf;
+$page-3-color: #f3533c;
+$page-4-color: #ffbf50;
+$page-5-color: #083846;
+
+html{
+	font-size: $font;	
+}
+body{
+	width: $width;
+	overflow:hidden;
+}
+
+.hide{
+	display:none;
+}
+
+.page{
+	width: $width;
+	height: $width;
+	position: absolute;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.page .wrap{
+	height: $hundred * 5;
+}
+
+.page-1-1{
+	background-color: $page-1-color;
+}
+.page-2-1{
+	background-color: $page-2-color;
+}
+.page-2-2{
+	background-color: $page-2-color;
+}
+.page-3-1{
+	background-color: $page-3-color;
+}
+.page-3-2{
+	background-color: $page-3-color;
+}
+.page-4-1{
+	background-color: $page-4-color;
+}
+.page-5-1{
+	background-color: $page-5-color;
+}

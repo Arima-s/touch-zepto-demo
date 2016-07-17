@@ -1,0 +1,21 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  width: 100%;
+  overflow: hidden; }
+
+.hide {
+  display: none; }
+
+.page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-size: 1rem;
+  text-align: center; }
+
+.page .wrap {
+  height: 500px; }
+
+/*# sourceMappingURL=index2.css.map */
